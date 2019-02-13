@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Feed implements Subject{
+    //add
     private final List<Observer> observers = new ArrayList<>();
     public void registerObserver(Observer o) {
         this.observers.add(o);
